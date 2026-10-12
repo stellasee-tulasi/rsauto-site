@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RS AUTO — ремонт, диагностика и обслуживание легковых и коммерческих автомобилей в Йыхви. Tartu mnt 30a. +372 56 178 168.">
+  <title>RS AUTO — автосервис в Йыхви</title>
+  <link rel="stylesheet" href="css/home.css">
+  <script src="js/home.js" defer></script>
+</head>
+<body>
+  <svg class="symbol-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="phone" viewBox="0 0 24 24"><path d="m7 3 3 5-3 3c2 3 3 4 6 6l3-3 5 3-2 4c-8 1-17-8-16-16Z"/></symbol>
+    <symbol id="plus" viewBox="0 0 24 24"><path d="M4 12h16M12 4v16"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="journey-car" viewBox="0 0 24 24"><path d="m5 10 2-5h10l2 5M4 10h16v8H4ZM4 13h3m10 0h3M6 18v2m12-2v2M9 15h6"/></symbol>
+    <symbol id="journey-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 3v4m8-4v4M4 10h16m-12 5 3 3 5-5"/></symbol>
+    <symbol id="journey-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  </svg>
+  <div class="page-shell" id="top">
+    <header class="site-header">
+      <a class="brand" href="#top" data-i18n-aria="brandLabel" aria-label="RS AUTO — на главную"><img src="assets/logo-rs-auto.png" alt="RS AUTO" width="122" height="58"></a>
+      <nav class="main-nav" data-i18n-aria="navLabel" aria-label="Основная навигация">
+        <a href="#services" data-i18n="navServices">Услуги</a><img class="nav-separator" src="assets/menu-separator.svg" width="6" height="13" alt="" aria-hidden="true" draggable="false">
+        <a href="#estimate" data-i18n="navPrice">Стоимость</a><img class="nav-separator" src="assets/menu-separator.svg" width="6" height="13" alt="" aria-hidden="true" draggable="false">
+        <a href="#about" data-i18n="navAbout">О сервисе</a><img class="nav-separator" src="assets/menu-separator.svg" width="6" height="13" alt="" aria-hidden="true" draggable="false">
+        <a href="#contacts" data-i18n="navContacts">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <div class="language-switch" role="group" data-i18n-aria="languageLabel" aria-label="Выбор языка">
+          <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-lang="et" aria-pressed="false">ET</button>
+        </div>
+        <a class="header-call" href="tel:+37256178168" aria-label="+372 56 178 168"><svg aria-hidden="true"><use href="#phone"></use></svg></a>
+        <a class="pill header-book" href="#booking"><span data-i18n="book">Записаться</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-background" src="assets/workshop.jpg" width="1376" height="768" data-i18n-alt="workshopAlt" alt="Светлая автомобильная мастерская с автомобилями и подъёмниками" fetchpriority="high">
+        <div class="hero-main">
+          <h1 id="hero-title" data-i18n="heroTitle">Ремонт и обслуживание<br>вашего автомобиля</h1>
+          <p data-i18n="heroIntro">От диагностики до планового обслуживания — всё для вашего автомобиля в одном сервисе.</p>
+          <a class="hero-cta" href="#booking"><span data-i18n="heroCta">Записаться на сервис</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a>
+        </div>
+        <div class="hero-benefits">
+          <article><h2 data-i18n="heroGuaranteeTitle">Гарантия на работы</h2><p data-i18n="heroGuaranteeText">На выполненные работы и предоставленные услуги.</p></article>
+          <article><h2 data-i18n="heroHaynesTitle">Расчёт по HaynesPro</h2><p data-i18n="heroHaynesText">Профессиональная система для расчёта стоимости работ.</p></article>
+          <article><h2 data-i18n="heroServicesTitle">Всё в одном сервисе</h2><p data-i18n="heroServicesText">Ремонт, диагностика, шины, кондиционер и обслуживание АКПП.</p></article>
+        </div>
+      </section>
+
+      <section class="manifesto" aria-labelledby="manifesto-title">
+        <span class="section-label" data-i18n="manifestoLabel">Автомобили. Люди. Внимание к деталям.</span>
+        <h2 id="manifesto-title"><span data-i18n="manifestoLine1">СОВРЕМЕННЫЙ АВТОСЕРВИС,</span><span class="manifesto-indent" data-i18n="manifestoLine2">ГДЕ О ВАШЕМ АВТОМОБИЛЕ</span><span class="muted" data-i18n="manifestoLine3">ЗАБОТЯТСЯ С ПОМОЩЬЮ ТЕХНОЛОГИЙ</span><span class="muted manifesto-indent" data-i18n="manifestoLine4">И ЗНАНИЯ СВОЕГО ДЕЛА.</span></h2>
+      </section>
+
+      <section class="services section-pad" id="services" aria-labelledby="services-heading">
+        <div class="section-bar"><h2 class="section-label" id="services-heading" data-i18n="servicesLabel">С чем мы можем помочь</h2><span class="section-label">RS AUTO · JÕHVI</span></div>
+        <div class="service-layout">
+          <div class="service-tabs" role="tablist" aria-orientation="vertical" data-i18n-aria="servicesTabsLabel" aria-label="Выберите услугу">
+            <button class="service-tab is-active" type="button" role="tab" id="tab-repair" aria-controls="service-panel" aria-selected="true" data-service="repair"><img class="service-marker" src="assets/menu-separator.svg" width="14" height="30" alt="" aria-hidden="true" draggable="false"><span class="service-name" data-i18n="repairTitle">ТО И АВТОРЕМОНТ</span><span class="service-summary" data-i18n="repairShort">Обслуживание и ремонт вашего автомобиля.</span><svg aria-hidden="true"><use href="#arrow"></use></svg></button>
+            <button class="service-tab" type="button" role="tab" id="tab-diagnostics" aria-controls="service-panel" aria-selected="false" tabindex="-1" data-service="diagnostics"><img class="service-marker" src="assets/menu-separator.svg" width="14" height="30" alt="" aria-hidden="true" draggable="false"><span class="service-name" data-i18n="diagnosticsTitle">ДИАГНОСТИКА И АВТОЭЛЕКТРИКА</span><span class="service-summary" data-i18n="diagnosticsShort">Найти причину, чтобы решить проблему.</span><svg aria-hidden="true"><use href="#arrow"></use></svg></button>
+            <button class="service-tab" type="button" role="tab" id="tab-alignment" aria-controls="service-panel" aria-selected="false" tabindex="-1" data-service="alignment"><img class="service-marker" src="assets/menu-separator.svg" width="14" height="30" alt="" aria-hidden="true" draggable="false"><span class="service-name" data-i18n="alignmentTitle">РАЗВАЛ-СХОЖДЕНИЕ</span><span class="service-summary" data-i18n="alignmentShort">Точная настройка для уверенного движения.</span><svg aria-hidden="true"><use href="#arrow"></use></svg></button>
+            <button class="service-tab" type="button" role="tab" id="tab-tires" aria-controls="service-panel" aria-selected="false" tabindex="-1" data-service="tires"><img class="service-marker" src="assets/menu-separator.svg" width="14" height="30" alt="" aria-hidden="true" draggable="false"><span class="service-name" data-i18n="tiresTitle">ШИНОМОНТАЖ И<br>БАЛАНСИРОВКА КОЛЁС</span><span class="service-summary" data-i18n="tiresShort">Замена и ремонт шин. Подготовка к сезону.</span><svg aria-hidden="true"><use href="#arrow"></use></svg></button>
+            <button class="service-tab" type="button" role="tab" id="tab-climate" aria-controls="service-panel" aria-selected="false" tabindex="-1" data-service="climate"><img class="service-marker" src="assets/menu-separator.svg" width="14" height="30" alt="" aria-hidden="true" draggable="false"><span class="service-name" data-i18n="climateTitle">ОБСЛУЖИВАНИЕ КОНДИЦИОНЕРА</span><span class="service-summary" data-i18n="climateShort">Комфортная температура в любое время года.</span><svg aria-hidden="true"><use href="#arrow"></use></svg></button>
+            <button class="service-tab" type="button" role="tab" id="tab-gearbox" aria-controls="service-panel" aria-selected="false" tabindex="-1" data-service="gearbox"><img class="service-marker" src="assets/menu-separator.svg" width="14" height="30" alt="" aria-hidden="true" draggable="false"><span class="service-name" data-i18n="gearboxTitle">ЗАМЕНА МАСЛА<br>В АКПП</span><span class="service-summary" data-i18n="gearboxShort">Обслуживание автоматической коробки передач.</span><svg aria-hidden="true"><use href="#arrow"></use></svg></button>
+          </div>
+          <div class="service-panel" role="tabpanel" id="service-panel" aria-labelledby="tab-repair" tabindex="0">
+            <img id="selected-service-image" src="assets/services-workshop-silver.png" width="1247" height="1261" alt="Автомобили с открытыми капотами в мастерской" loading="lazy" decoding="async">
+            <div class="service-panel-copy"><span class="panel-label" data-i18n="panelLabel">В центре внимания — ваш автомобиль</span><h3 id="selected-service-title">ТО и авторемонт</h3><p id="selected-service-description">Обслуживание и ремонт легковых и коммерческих автомобилей. Расскажите, что нужно вашему автомобилю — начнём с этого.</p><a class="pill pill-light" href="#booking" id="selected-service-book"><span data-i18n="serviceBook">Записаться на эту услугу</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="estimate section-pad" id="estimate" aria-labelledby="estimate-heading">
+        <div class="estimate-heading">
+          <div class="estimate-intro"><span class="section-label" data-i18n="estimateLabel">Стоимость обслуживания</span><h2 id="estimate-heading" data-i18n="estimateTitle">ПОНЯТЬ ЗАДАЧУ.<br>РАССЧИТАТЬ РАБОТЫ.</h2></div>
+          <div class="estimate-summary"><p data-i18n="estimateIntro">Стоимость зависит от автомобиля и объёма ремонта. Опишите задачу — сервис подскажет, какие данные нужны для расчёта.</p><a class="text-link" href="tel:+37256178168"><span data-i18n="estimateCta">Обсудить стоимость</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a></div>
+        </div>
+        <div class="estimate-timeline">
+          <article class="estimate-step">
+            <span class="estimate-step-number" aria-hidden="true">01</span>
+            <div class="estimate-step-copy"><h3 data-i18n="estimateCarTitle">ВАШ АВТОМОБИЛЬ</h3><p data-i18n="estimateCar">Марка, модель и особенности автомобиля помогают уточнить задачу.</p></div>
+            <figure class="estimate-step-media"><img src="assets/rsauto-car.jpg" width="1600" height="900" alt="" aria-hidden="true" loading="lazy"></figure>
+          </article>
+          <article class="estimate-step">
+            <span class="estimate-step-number" aria-hidden="true">02</span>
+            <div class="estimate-step-copy"><h3 data-i18n="estimateWorkTitle">НЕОБХОДИМЫЕ РАБОТЫ</h3><p data-i18n="estimateWork">Ремонт, диагностика или обслуживание — расскажите, с чем вы обращаетесь.</p></div>
+            <figure class="estimate-step-media"><img src="assets/service-photos/alignment.jpg" width="1375" height="3049" alt="" aria-hidden="true" loading="lazy"></figure>
+          </article>
+          <article class="estimate-step">
+            <span class="estimate-step-number" aria-hidden="true">03</span>
+            <div class="estimate-step-copy"><h3 data-i18n="estimateHaynesTitle">РАСЧЁТ ПО HAYNESPRO</h3><p data-i18n="estimateHaynes">Профессиональная система для расчёта стоимости и учёта времени работ.</p></div>
+            <figure class="estimate-step-media"><img src="assets/rsauto-engine.jpg" width="2000" height="1333" alt="" aria-hidden="true" loading="lazy"></figure>
+          </article>
+          <article class="estimate-step">
+            <span class="estimate-step-number" aria-hidden="true">04</span>
+            <div class="estimate-step-copy"><h3 data-i18n="estimateStep4Title">ПОДГОТОВЬТЕ ЗАПРОС</h3><p data-i18n="estimateStep4">Выберите услугу и опишите задачу в форме записи.</p><a href="#booking" class="estimate-bottom"><span data-i18n="estimateRequest">Подготовить запрос на обслуживание</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a></div>
+            <figure class="estimate-step-media"><img src="assets/service-photos/workshop.jpg" width="2048" height="1158" alt="" aria-hidden="true" loading="lazy"></figure>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-heading">
+        <div class="about-label"><h2 class="section-label" id="about-heading" data-i18n="whyTitle">Почему выбирают RS AUTO?</h2></div>
+        <div class="about-content">
+          <div class="reason-list">
+            <article><h3 data-i18n="reasonHaynesTitle">Профессиональный расчёт</h3><p data-i18n="reasonHaynes">Для стоимости и времени работ используем онлайн-систему HaynesPro.</p></article>
+            <article><h3 data-i18n="reasonGuaranteeTitle">Гарантия на работы</h3><p data-i18n="reasonGuarantee">На выполненные работы и предоставленные услуги действует гарантия.</p></article>
+            <article><h3 data-i18n="reasonAllTitle">Задачи в одном месте</h3><p data-i18n="reasonAll">От диагностики и авторемонта до шиномонтажа и обслуживания кондиционера.</p></article>
+            <article><h3 data-i18n="reasonPlaceTitle">Сервис в Йыхви</h3><p data-i18n="aboutIntro">RS AUTO OÜ — обслуживание и ремонт легковых и коммерческих автомобилей в Йыхви.</p></article>
+          </div>
+          <figure class="why-photo"><img src="assets/rsauto-engine.jpg" width="2000" height="1333" data-i18n-alt="engineAlt" alt="Металлические детали автомобильного двигателя" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="journey section-pad" id="journey" aria-labelledby="journey-heading">
+        <div class="journey-heading">
+          <span class="section-label" data-i18n="journeyLabel">Перед визитом</span>
+          <div class="journey-heading-copy">
+            <h2 id="journey-heading" data-i18n="journeyTitle">НАЧНЁМ С ВАМИ С ПРОСТОГО РАЗГОВОРА.</h2>
+            <div class="journey-lead"><p data-i18n="journeyIntro">Четыре простых шага до визита: свяжитесь с нами, расскажите об автомобиле и договоритесь об удобном времени.</p><a class="pill" href="tel:+37256178168"><span data-i18n="call">Позвонить</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a></div>
+          </div>
+        </div>
+        <div class="steps">
+          <article class="journey-step" tabindex="0" aria-labelledby="journey-step-1"><h3 id="journey-step-1" data-i18n="step1Title">Связь с сервисом</h3><div class="step-detail"><p data-i18n="step1">Позвоните или подготовьте заявку по электронной почте.</p><img class="step-image" src="assets/services-workshop-silver.png" width="1247" height="1261" alt="" aria-hidden="true" loading="lazy"></div><span class="step-number" aria-hidden="true">01</span></article>
+          <article class="journey-step" tabindex="0" aria-labelledby="journey-step-2"><h3 id="journey-step-2" data-i18n="step2Title">Ваш автомобиль</h3><div class="step-detail"><p data-i18n="step2">Назовите марку и модель. Опишите задачу или симптомы.</p><img class="step-image step-image--mechanic" src="assets/service-photos/mechanic.jpg" width="1375" height="3049" alt="" aria-hidden="true" loading="lazy"></div><span class="step-number" aria-hidden="true">02</span></article>
+          <article class="journey-step" tabindex="0" aria-labelledby="journey-step-3"><h3 id="journey-step-3" data-i18n="step3Title">Детали визита</h3><div class="step-detail"><p data-i18n="step3">Обсудите необходимые работы, стоимость и удобное время.</p><img class="step-image" src="assets/service-photos/alignment.jpg" width="1375" height="3049" alt="" aria-hidden="true" loading="lazy"></div><span class="step-number" aria-hidden="true">03</span></article>
+          <article class="journey-step" tabindex="0" aria-labelledby="journey-step-4"><h3 id="journey-step-4" data-i18n="step4Title">Встреча в Йыхви</h3><div class="step-detail"><p data-i18n="step4">Сервис находится по адресу Tartu mnt 30a.</p><img class="step-image step-image--arrival" src="assets/service-photos/entrance.jpg" width="1280" height="850" alt="" aria-hidden="true" loading="lazy"></div><span class="step-number" aria-hidden="true">04</span></article>
+        </div>
+      </section>
+
+      <section class="season section-pad" id="season" aria-labelledby="season-heading">
+        <img class="season-photo" src="assets/service-photos/workshop.jpg" width="2048" height="1158" alt="" aria-hidden="true" loading="lazy">
+        <div class="season-panel">
+          <span class="section-label" data-i18n="seasonLabel">Сезон меняется. Забота остаётся.</span>
+          <h2 id="season-heading" data-i18n="seasonTitle">НОВЫЙ СЕЗОН.<br>ТА ЖЕ ЗАБОТА.</h2>
+          <p data-i18n="seasonIntro">Шины, управляемость, комфорт в салоне. Обсудите сезонное обслуживание заранее, чтобы спокойно планировать поездки.</p>
+          <a class="pill" href="#booking"><span data-i18n="seasonCta">Выбрать обслуживание</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a>
+        </div>
+      </section>
+
+      <section class="faq section-pad" id="faq" aria-labelledby="faq-heading">
+        <div class="faq-intro"><span class="section-label" data-i18n="faqLabel">Полезно знать</span><h2 id="faq-heading" data-i18n="faqTitle">ПАРА ВОПРОСОВ ПЕРЕД ВИЗИТОМ.</h2></div>
+        <div class="faq-list">
+          <details>
+            <summary><span class="faq-number" aria-hidden="true">01</span><span class="faq-question" data-i18n="faq1Question">Какие автомобили обслуживает RS AUTO?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><img src="assets/service-photos/workshop.jpg" width="250" height="154" alt="" aria-hidden="true" loading="lazy"><p data-i18n="faq1Answer">Сервис занимается техническим обслуживанием и ремонтом легковых и коммерческих автомобилей.</p></div>
+          </details>
+          <details>
+            <summary><span class="faq-number" aria-hidden="true">02</span><span class="faq-question" data-i18n="faq2Question">Как рассчитывается стоимость работ?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><img class="faq-mechanic-photo" src="assets/service-photos/mechanic.jpg" width="250" height="154" alt="" aria-hidden="true" loading="lazy"><p data-i18n="faq2Answer">Стоимость зависит от автомобиля и необходимых работ. Для расчёта и учёта времени RS AUTO использует систему HaynesPro. Уточните стоимость при обращении в сервис.</p></div>
+          </details>
+          <details>
+            <summary><span class="faq-number" aria-hidden="true">03</span><span class="faq-question" data-i18n="faq3Question">Есть ли гарантия?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><img src="assets/service-photos/alignment.jpg" width="250" height="154" alt="" aria-hidden="true" loading="lazy"><p data-i18n="faq3Answer">RS AUTO предоставляет гарантию на выполненные работы и предоставленные услуги. Условия уточняйте при обсуждении ремонта.</p></div>
+          </details>
+          <details>
+            <summary><span class="faq-number" aria-hidden="true">04</span><span class="faq-question" data-i18n="faq4Question">Как договориться о визите?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><img src="assets/services-workshop-silver.png" width="250" height="154" alt="" aria-hidden="true" loading="lazy"><p data-i18n="faq4Answer">Позвоните по номеру +372 56 178 168. Можно подготовить заявку ниже и отправить её через свою почту на info@rsauto.ee. Время визита уточняется с сервисом.</p></div>
+          </details>
+          <details>
+            <summary><span class="faq-number" aria-hidden="true">05</span><span class="faq-question" data-i18n="faq5Question">Где находится сервис и когда он открыт?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><img class="faq-route-photo" src="assets/service-photos/entrance.jpg" width="250" height="154" alt="" aria-hidden="true" loading="lazy"><p data-i18n="faq5Answer">Jõhvi, Tartu mnt 30a. Понедельник — пятница: 09:00–18:00.</p></div>
+          </details>
+        </div>
+        <div class="faq-contact"><p data-i18n="faqIntro">Не нашли нужный ответ? Позвоните — расскажите о своём автомобиле и задаче.</p><a class="text-link" href="tel:+37256178168"><span data-i18n="call">Позвонить</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a></div>
+      </section>
+
+      <section class="booking section-pad" id="booking" aria-labelledby="booking-heading">
+        <div class="booking-top">
+          <div class="booking-contact-area"><span class="section-label" data-i18n="bookingLabel">Свяжитесь с нами</span><div class="booking-contact-links">
+            <a class="booking-contact" href="mailto:info@rsauto.ee"><span data-i18n="bookingEmailLabel">Почта</span><strong>info@rsauto.ee</strong></a>
+            <a class="booking-contact" href="tel:+37256178168"><span data-i18n="bookingPhoneLabel">Телефон</span><strong>+372 56 178 168</strong></a>
+            <a class="booking-contact" href="https://www.facebook.com/profile.php?id=100057047216043" target="_blank" rel="noopener noreferrer"><span data-i18n="bookingSocialLabel">Соцсети</span><strong data-i18n="bookingFacebook">RS AUTO в Facebook</strong></a>
+          </div></div>
+        </div>
+        <div class="booking-copy"><h2 class="booking-prompt" id="booking-heading" data-i18n="bookingPrompt">Давайте обсудим ваш автомобиль и опишите задачу своими словами.</h2></div>
+        <form class="booking-form" id="booking-form">
+          <div class="form-row"><label><span data-i18n="fieldName">Ваше имя</span><input name="name" autocomplete="name" required maxlength="100" data-i18n-placeholder="placeholderName" placeholder="Как к вам обращаться"></label><label><span data-i18n="fieldPhone">Телефон</span><input name="phone" type="tel" autocomplete="tel" required maxlength="40" placeholder="+372"></label></div>
+          <label><span data-i18n="fieldCar">Марка и модель автомобиля</span><input name="car" required maxlength="140" data-i18n-placeholder="placeholderCar" placeholder="Например, Volkswagen Passat"></label>
+          <div class="form-row"><label><span data-i18n="fieldService">Необходимая услуга</span><select name="service" id="booking-service"><option value="unsure" data-i18n="optionUnsure">Нужна консультация</option><option value="repair" data-i18n="optionRepair">ТО и авторемонт</option><option value="diagnostics" data-i18n="optionDiagnostics">Диагностика и автоэлектрика</option><option value="alignment" data-i18n="optionAlignment">Развал-схождение</option><option value="tires" data-i18n="optionTires">Шиномонтаж</option><option value="climate" data-i18n="optionClimate">Кондиционер</option><option value="gearbox" data-i18n="optionGearbox">Масло в АКПП</option></select></label><label><span data-i18n="fieldDate">Желаемая дата</span><input name="date" type="date"></label></div>
+          <label><span data-i18n="fieldMessage">Что нужно сделать?</span><textarea name="message" rows="3" maxlength="1800" data-i18n-placeholder="placeholderMessage" placeholder="Опишите задачу или то, что вас беспокоит"></textarea></label>
+          <div class="form-actions"><button type="submit" class="pill pill-dark"><span data-i18n="prepareEmail">Подготовить письмо</span><svg aria-hidden="true"><use href="#arrow"></use></svg></button><button type="button" class="copy-button" id="copy-request" data-i18n="copyRequest">Скопировать заявку</button></div>
+          <p class="form-note" data-i18n="formNote">Заявка откроется в вашей почте. Отправьте письмо, чтобы сервис получил запрос. Желаемая дата подтверждается сервисом.</p><p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="contacts section-pad" id="contacts" aria-labelledby="contacts-heading">
+        <img class="contacts-backdrop" src="assets/workshop.jpg" width="1376" height="768" alt="" aria-hidden="true" loading="lazy">
+        <div class="contacts-content">
+          <div class="contacts-heading"><span class="section-label" data-i18n="contactsLabel">Встречаемся в Йыхви</span><h2 id="contacts-heading" data-i18n="contactsTitle">КОНТАКТЫ</h2></div>
+          <div class="contact-cards">
+            <article class="contact-card"><img class="contact-card-icon" src="assets/journey-calendar-flat.svg" width="48" height="48" alt="" aria-hidden="true"><h3 data-i18n="contactDaysTitle">Работаем для вас</h3><p class="contact-card-value" data-i18n="hoursLabel">Понедельник — пятница</p></article>
+            <article class="contact-card"><img class="contact-card-icon" src="assets/contact-clock-flat.svg" width="48" height="48" alt="" aria-hidden="true"><h3 data-i18n="contactHoursTitle">Открыты для вас</h3><p class="contact-card-value">09:00–18:00</p></article>
+            <a class="contact-card" href="tel:+37256178168"><img class="contact-card-icon" src="assets/journey-phone-flat.svg" width="48" height="48" alt="" aria-hidden="true"><span class="contact-card-title" data-i18n="contactPhoneTitle">Позвоните нам</span><span class="contact-card-value">+372 56 178 168</span></a>
+            <a class="contact-card" href="mailto:info@rsauto.ee"><img class="contact-card-icon" src="assets/contact-mail-flat.svg" width="48" height="48" alt="" aria-hidden="true"><span class="contact-card-title" data-i18n="contactEmailTitle">Напишите нам</span><span class="contact-card-value">info@rsauto.ee</span></a>
+          </div>
+          <div class="contacts-bottom">
+            <p class="contact-address"><strong>TARTU MNT 30A, JÕHVI, EESTI.</strong><span>RS AUTO OÜ · IDA-VIRUMAA</span></p>
+            <div class="contact-links"><a class="contact-social" href="https://www.facebook.com/profile.php?id=100057047216043" target="_blank" rel="noopener noreferrer"><span data-i18n="facebookLabel">RS AUTO в Facebook</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a><a class="pill pill-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Tartu+mnt+30a%2C+J%C3%B5hvi" target="_blank" rel="noopener noreferrer"><span data-i18n="route">Построить маршрут</span><svg aria-hidden="true"><use href="#arrow"></use></svg></a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="footer-wordmark" href="#top" data-i18n-aria="backTop" aria-label="Наверх"><img class="footer-logo" src="assets/logo-rs-auto.png" width="272" height="136" alt="Логотип RS AUTO OÜ"><svg aria-hidden="true"><use href="#arrow"></use></svg></a><div class="footer-meta"><span>RS AUTO OÜ · 14523279</span><span data-i18n="footerDescription">Ремонт и обслуживание автомобилей</span><a href="#top" data-i18n="footerTop">Вернуться наверх ↑</a></div></footer>
+  </div>
+</body>
+</html>

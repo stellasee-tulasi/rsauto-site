@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+  <defs><mask id="clock" maskUnits="userSpaceOnUse" x="0" y="0" width="80" height="80"><rect width="80" height="80" fill="white"/><path d="M40 21v20l13 8" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></mask></defs>
+  <circle cx="40" cy="40" r="30" fill="#747A7E" mask="url(#clock)"/>
+</svg>
