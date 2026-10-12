@@ -71,7 +71,7 @@ img { display: block; }
 
 .hero { position: relative; isolation: isolate; display: flex; flex-direction: column; justify-content: space-between; height: 840px; min-height: 680px; margin: 0; padding: 138px 86px 28px; overflow: hidden; background: var(--ink); color: #fff; }
 .hero-background { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 58%; filter: saturate(.78) contrast(1.04) brightness(.84); }
-.hero::before { position: absolute; z-index: -1; inset: 0; content: ""; background: linear-gradient(112deg, rgba(233,194,27,.14) 0%, rgba(233,194,27,.07) 39%, transparent 74%), linear-gradient(90deg, rgba(17,23,27,.78) 0%, rgba(17,23,27,.58) 38%, rgba(17,23,27,.12) 100%), linear-gradient(0deg, rgba(17,23,27,.68) 0%, transparent 48%); pointer-events: none; }
+.hero::before { position: absolute; z-index: -1; inset: 0; content: ""; background: linear-gradient(90deg, rgba(17,23,27,.78) 0%, rgba(17,23,27,.58) 38%, rgba(17,23,27,.12) 100%), linear-gradient(0deg, rgba(17,23,27,.68) 0%, transparent 48%); pointer-events: none; }
 .hero-main { max-width: 980px; }
 .hero h1 { max-width: 980px; margin: 0; font-size: 64px; font-weight: 600; letter-spacing: -2px; line-height: 105%; }
 .hero-main > p { max-width: 560px; margin: 20px 0 28px; color: #e2e6e8; font-size: 18px; line-height: 145%; }
