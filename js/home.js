@@ -10,8 +10,8 @@
     journeyLabel: 'Enne külastust', journeyTitle: 'ALUSTAME KOOS LIHTSA VESTLUSEGA.', journeyIntro: 'Neli lihtsat sammu enne külastust: võtke meiega ühendust, rääkige oma autost ja leppige sobiv aeg kokku.', call: 'Helista meile', step1Title: 'Võtke ühendust', step1: 'Helistage või koostage päring e-posti teel.', step2Title: 'Teie auto', step2: 'Öelge mark ja mudel. Kirjeldage ülesannet või sümptomeid.', step3Title: 'Visiidi detailid', step3: 'Arutage vajalikke töid, maksumust ja sobivat aega.', step4Title: 'Kohtume Jõhvis', step4: 'Teenindus asub aadressil Tartu mnt 30a.',
     seasonLabel: 'Hooaeg muutub. Hool jääb.', seasonTitle: 'UUS HOOAEG.<br>SAMA TÄHELEPANU.', seasonIntro: 'Rehvid, juhitavus ja salongimugavus. Arutage hooajalist hooldust aegsasti, et oma sõite rahulikult planeerida.', seasonCta: 'Vali vajalik hooldus',
     faqLabel: 'Kasulik teada', faqTitle: 'MÕNED KÜSIMUSED ENNE KÜLASTUST.', faqIntro: 'Ei leidnud vastust? Helistage — rääkige oma autost ja ülesandest.', faq1Question: 'Milliseid autosid RS AUTO hooldab?', faq1Answer: 'Teenindus tegeleb sõidu- ja tarbesõidukite tehnilise hoolduse ning remondiga.', faq2Question: 'Kuidas tööde maksumus kujuneb?', faq2Answer: 'Maksumus sõltub autost ja vajalikest töödest. RS AUTO kasutab hinna ja tööaja arvestuseks HaynesPro süsteemi. Täpsustage maksumus teenindusega ühendust võttes.', faq3Question: 'Kas töödele kehtib garantii?', faq3Answer: 'RS AUTO annab tehtud töödele ja osutatud teenustele garantii. Täpsustage tingimused remonditööde arutamisel.', faq4Question: 'Kuidas külastusaeg kokku leppida?', faq4Answer: 'Helistage numbril +372 56 178 168. Võite koostada allpool päringu ja saata selle oma e-posti kaudu aadressile info@rsauto.ee. Külastusaeg lepitakse kokku teenindusega.', faq5Question: 'Kus teenindus asub ja millal see avatud on?', faq5Answer: 'Jõhvi, Tartu mnt 30a. Esmaspäevast reedeni 09:00–18:00.',
-    bookingLabel: 'VÕTKE MEIEGA ÜHENDUST', bookingEmailLabel: 'E-post', bookingPhoneLabel: 'Telefon', bookingSocialLabel: 'Sotsiaalmeedia', bookingFacebook: 'RS AUTO Facebookis', bookingPrompt: 'Rääkige meile oma autost ja kirjeldage ülesannet oma sõnadega.', fieldName: 'Teie nimi', placeholderName: 'Kuidas teie poole pöörduda', fieldPhone: 'Telefon', fieldCar: 'Auto mark ja mudel', placeholderCar: 'Näiteks Volkswagen Passat', fieldService: 'Vajalik teenus', fieldDate: 'Soovitud kuupäev', fieldMessage: 'Mida on vaja teha?', placeholderMessage: 'Kirjeldage ülesannet või seda, mis teile muret teeb', optionUnsure: 'Soovin nõu küsida', optionRepair: 'Hooldus ja autoremont', optionDiagnostics: 'Diagnostika ja autoelekter', optionAlignment: 'Silla reguleerimine', optionTires: 'Rehvitööd', optionClimate: 'Kliimaseade', optionGearbox: 'Automaatkäigukasti õlivahetus', prepareEmail: 'Koosta e-kiri', copyRequest: 'Kopeeri päring', formNote: 'Päring avaneb teie e-postis. Saatke kiri, et teenindus selle kätte saaks. Soovitud kuupäeva kinnitab teenindus.',
-    contactsLabel: 'Kohtume Jõhvis', contactsTitle: 'KONTAKTID', contactDaysTitle: 'Töötame teie jaoks', contactHoursTitle: 'Oleme avatud', contactPhoneTitle: 'Helistage meile', contactEmailTitle: 'Kirjutage meile', hoursLabel: 'Esmaspäevast reedeni', route: 'Näita teekonda', facebookLabel: 'RS AUTO Facebookis', footerDescription: 'Autode remont ja hooldus', footerTop: 'Tagasi lehe algusesse ↑', backTop: 'Lehe algusesse'
+    bookingLabel: 'VÕTKE MEIEGA ÜHENDUST', bookingTitle: 'RÄÄGIME TEIE AUTOST.', bookingTaskText: 'Kirjeldage ülesannet oma sõnadega.', bookingDescription: 'Te ei pea teadma rikke nimetust, et abi küsida.', fieldName: 'Teie nimi', placeholderName: 'Kuidas teie poole pöörduda', fieldPhone: 'Telefon', fieldCar: 'Auto mark ja mudel', placeholderCar: 'Näiteks Volkswagen Passat', fieldService: 'Vajalik teenus', fieldDate: 'Soovitud kuupäev', fieldMessage: 'Mida on vaja teha?', placeholderMessage: 'Kirjeldage ülesannet või seda, mis teile muret teeb', optionUnsure: 'Soovin nõu küsida', optionRepair: 'Hooldus ja autoremont', optionDiagnostics: 'Diagnostika ja autoelekter', optionAlignment: 'Silla reguleerimine', optionTires: 'Rehvitööd', optionClimate: 'Kliimaseade', optionGearbox: 'Automaatkäigukasti õlivahetus', prepareEmail: 'Koosta e-kiri', copyRequest: 'Kopeeri päring', formNote: 'Päring avaneb teie e-postis. Saatke kiri, et teenindus selle kätte saaks. Soovitud kuupäeva kinnitab teenindus.',
+    contactsLabel: 'Kohtume Jõhvis', contactsTitle: 'KONTAKTID', contactDaysTitle: 'Töötame teie jaoks', contactHoursTitle: 'Oleme avatud', contactPhoneTitle: 'Helistage meile', contactEmailTitle: 'Kirjutage meile', contactAddressTitle: 'Meie aadress', hoursLabel: 'Esmaspäevast reedeni', route: 'Näita teekonda', facebookLabel: 'Ava Facebook', footerDescription: 'Autode remont ja hooldus', footerTop: 'Tagasi lehe algusesse ↑', backTop: 'Lehe algusesse'
   };
   const ru = {};
   document.querySelectorAll('[data-i18n]').forEach(el => { ru[el.dataset.i18n] = el.innerHTML; });
@@ -72,23 +72,41 @@
   });
   let language = 'ru';
   let selectedService = 'repair';
+  let pendingService = selectedService;
+  let serviceTransitionRunning = false;
+  let serviceTransitionToken = 0;
+  let serviceScrollFrame = 0;
   const tabs = Array.from(document.querySelectorAll('.service-tab'));
-  const serviceImage = document.getElementById('selected-service-image');
+  let activeServiceFrame = document.querySelector('.service-frame.is-current');
+  let standbyServiceFrame = document.querySelector('.service-frame.is-standby');
+  const serviceFrames = [activeServiceFrame, standbyServiceFrame];
+  const servicesSection = document.querySelector('.services');
+  const servicesPin = document.querySelector('.services-pin');
+  const servicePinQuery = window.matchMedia('(min-width: 1101px) and (min-height: 680px) and (prefers-reduced-motion: no-preference)');
+  let serviceScrollPinEnabled = servicePinQuery.matches;
   const form = document.getElementById('booking-form');
   const serviceSelect = document.getElementById('booking-service');
   const status = document.getElementById('form-status');
 
-  function renderService() {
-    const [title, description] = serviceDescriptions[language][selectedService];
-    const photo = servicePhotos[selectedService];
-    if (serviceImage.getAttribute('src') !== photo.src) serviceImage.src = photo.src;
-    serviceImage.alt = photo.alt[language];
-    serviceImage.style.objectPosition = photo.position;
-    serviceImage.style.transform = 'scale(' + photo.scale + ')';
-    serviceImage.style.transformOrigin = photo.origin || '50% 50%';
-    serviceImage.classList.toggle('is-archive-photo', Boolean(photo.archive));
-    document.getElementById('selected-service-title').textContent = title;
-    document.getElementById('selected-service-description').textContent = description;
+  function renderServiceFrame(frame, serviceKey) {
+    if (!frame) return;
+    const image = frame.querySelector('.service-frame-image');
+    const titleElement = frame.querySelector('[data-service-title]');
+    const descriptionElement = frame.querySelector('[data-service-description]');
+    const isActiveFrame = frame === activeServiceFrame;
+    const [title, description] = serviceDescriptions[language][serviceKey];
+    const photo = servicePhotos[serviceKey];
+    if (image.getAttribute('src') !== photo.src) image.src = photo.src;
+    image.alt = isActiveFrame ? photo.alt[language] : '';
+    image.style.objectPosition = photo.position;
+    image.style.setProperty('--photo-scale', photo.scale);
+    image.style.transformOrigin = photo.origin || '50% 50%';
+    image.classList.toggle('is-archive-photo', Boolean(photo.archive));
+    titleElement.textContent = title;
+    descriptionElement.textContent = description;
+    frame.querySelectorAll('a').forEach(link => { link.tabIndex = isActiveFrame ? 0 : -1; });
+  }
+  function renderServiceTabs() {
     document.getElementById('service-panel').setAttribute('aria-labelledby', 'tab-' + selectedService);
     tabs.forEach(tab => {
       const active = tab.dataset.service === selectedService;
@@ -96,6 +114,124 @@
       tab.setAttribute('aria-selected', String(active));
       tab.tabIndex = active ? 0 : -1;
     });
+  }
+  function renderService() {
+    serviceFrames.forEach(frame => renderServiceFrame(frame, selectedService));
+    activeServiceFrame.setAttribute('aria-hidden', 'false');
+    standbyServiceFrame.setAttribute('aria-hidden', 'true');
+    renderServiceTabs();
+  }
+  function cancelServiceTransition() {
+    serviceTransitionToken += 1;
+    serviceTransitionRunning = false;
+    pendingService = selectedService;
+    servicesSection.classList.remove('is-service-transitioning');
+    activeServiceFrame.classList.remove('is-standby', 'is-entering', 'is-entering-from-top', 'is-sliding-in');
+    activeServiceFrame.classList.add('is-current', 'is-resetting');
+    standbyServiceFrame.classList.remove('is-current', 'is-entering', 'is-entering-from-top', 'is-sliding-in');
+    standbyServiceFrame.classList.add('is-standby', 'is-resetting');
+    activeServiceFrame.setAttribute('aria-hidden', 'false');
+    standbyServiceFrame.setAttribute('aria-hidden', 'true');
+    activeServiceFrame.getBoundingClientRect();
+    standbyServiceFrame.getBoundingClientRect();
+    activeServiceFrame.classList.remove('is-resetting');
+    standbyServiceFrame.classList.remove('is-resetting');
+  }
+  function waitForImage(image) {
+    if (image.complete) return image.decode ? image.decode().catch(() => {}) : Promise.resolve();
+    return new Promise(resolve => {
+      image.addEventListener('load', resolve, { once: true });
+      image.addEventListener('error', resolve, { once: true });
+    }).then(() => image.decode ? image.decode().catch(() => {}) : undefined);
+  }
+  function getServiceScrollRange() {
+    const exitRunway = serviceScrollPinEnabled ? window.innerHeight : 0;
+    return Math.max(1, servicesSection.offsetHeight - servicesPin.offsetHeight - exitRunway);
+  }
+  function transitionService(nextService) {
+    if (!servicePhotos[nextService]) return;
+    pendingService = nextService;
+    if (serviceTransitionRunning || nextService === selectedService) return;
+    serviceTransitionRunning = true;
+    const token = ++serviceTransitionToken;
+    const animate = async () => {
+      while (token === serviceTransitionToken && pendingService !== selectedService) {
+        const target = pendingService;
+        const photo = servicePhotos[target];
+        const incoming = standbyServiceFrame;
+        const incomingImage = incoming.querySelector('.service-frame-image');
+        if (incomingImage.getAttribute('src') !== photo.src) incomingImage.src = photo.src;
+        renderServiceFrame(incoming, target);
+        await waitForImage(incomingImage);
+        if (token !== serviceTransitionToken) return;
+        if (pendingService !== target) continue;
+
+        incoming.classList.add('is-resetting');
+        incoming.classList.remove('is-standby', 'is-sliding-in');
+        const currentIndex = tabs.findIndex(tab => tab.dataset.service === selectedService);
+        const targetIndex = tabs.findIndex(tab => tab.dataset.service === target);
+        incoming.classList.toggle('is-entering-from-top', targetIndex < currentIndex);
+        incoming.classList.add('is-entering');
+        incoming.getBoundingClientRect();
+        incoming.classList.remove('is-resetting');
+        incoming.getBoundingClientRect();
+        await new Promise(resolve => window.requestAnimationFrame(resolve));
+        if (token !== serviceTransitionToken) return;
+        servicesSection.classList.add('is-service-transitioning');
+        incoming.classList.add('is-sliding-in');
+        selectedService = target;
+        renderServiceTabs();
+        const motionDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 20 : 680;
+        await new Promise(resolve => window.setTimeout(resolve, motionDuration));
+        if (token !== serviceTransitionToken) return;
+
+        servicesSection.classList.remove('is-service-transitioning');
+        selectedService = target;
+        activeServiceFrame.classList.remove('is-current', 'is-entering', 'is-entering-from-top', 'is-sliding-in');
+        activeServiceFrame.classList.add('is-standby');
+        activeServiceFrame.setAttribute('aria-hidden', 'true');
+        incoming.classList.remove('is-entering', 'is-entering-from-top', 'is-sliding-in', 'is-standby');
+        incoming.classList.add('is-current');
+        incoming.setAttribute('aria-hidden', 'false');
+        const previousFrame = activeServiceFrame;
+        activeServiceFrame = incoming;
+        standbyServiceFrame = previousFrame;
+        renderService();
+      }
+      if (token === serviceTransitionToken) serviceTransitionRunning = false;
+    };
+    animate();
+  }
+  function scrollToService(index) {
+    const nextService = tabs[index].dataset.service;
+    if (!serviceScrollPinEnabled) {
+      transitionService(nextService);
+      return;
+    }
+    const sectionTop = window.scrollY + servicesSection.getBoundingClientRect().top;
+    const scrollRange = getServiceScrollRange();
+    const serviceProgress = (index + 0.5) / tabs.length;
+    window.scrollTo({ top: sectionTop + scrollRange * serviceProgress, behavior: 'smooth' });
+  }
+  function syncServiceToScroll() {
+    if (!serviceScrollPinEnabled || !tabs.length) return;
+    const sectionTop = window.scrollY + servicesSection.getBoundingClientRect().top;
+    const scrollRange = getServiceScrollRange();
+    const progress = Math.max(0, Math.min(0.999999, (window.scrollY - sectionTop) / scrollRange));
+    const activeIndex = Math.min(tabs.length - 1, Math.floor(progress * tabs.length));
+    transitionService(tabs[activeIndex].dataset.service);
+  }
+  function queueServiceScrollSync() {
+    if (serviceScrollFrame) return;
+    serviceScrollFrame = window.requestAnimationFrame(() => {
+      serviceScrollFrame = 0;
+      syncServiceToScroll();
+    });
+  }
+  function updateServicePinMode() {
+    serviceScrollPinEnabled = servicePinQuery.matches;
+    servicesSection.toggleAttribute('data-scroll-pinned', serviceScrollPinEnabled);
+    queueServiceScrollSync();
   }
   function setLanguage(nextLanguage) {
     language = nextLanguage === 'et' ? 'et' : 'ru';
@@ -116,12 +252,13 @@
       ? 'RS AUTO — sõidu- ja tarbesõidukite remont, diagnostika ja hooldus Jõhvis. Tartu mnt 30a. +372 56 178 168.'
       : 'RS AUTO — ремонт, диагностика и обслуживание легковых и коммерческих автомобилей в Йыхви. Tartu mnt 30a. +372 56 178 168.';
     status.textContent = '';
+    cancelServiceTransition();
     renderService();
     try { localStorage.setItem('rsauto-v4-language', language); } catch (_) { /* File previews can restrict storage. */ }
   }
   document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
   tabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => { selectedService = tab.dataset.service; renderService(); });
+    tab.addEventListener('click', () => scrollToService(index));
     tab.addEventListener('keydown', event => {
       let next = index;
       if (event.key === 'ArrowDown') next = (index + 1) % tabs.length;
@@ -130,12 +267,16 @@
       else if (event.key === 'End') next = tabs.length - 1;
       else return;
       event.preventDefault();
-      selectedService = tabs[next].dataset.service;
-      renderService();
+      scrollToService(next);
       tabs[next].focus();
     });
   });
-  document.getElementById('selected-service-book').addEventListener('click', () => { serviceSelect.value = selectedService; });
+  window.addEventListener('scroll', queueServiceScrollSync, { passive: true });
+  window.addEventListener('resize', queueServiceScrollSync);
+  if (servicePinQuery.addEventListener) servicePinQuery.addEventListener('change', updateServicePinMode);
+  else servicePinQuery.addListener(updateServicePinMode);
+  updateServicePinMode();
+  serviceFrames.forEach(frame => frame.querySelector('a').addEventListener('click', () => { serviceSelect.value = selectedService; }));
 
   const hero = document.querySelector('.hero');
   function fitHeroToWindow() {
@@ -143,6 +284,36 @@
   }
   fitHeroToWindow();
   window.addEventListener('resize', fitHeroToWindow);
+
+  const revealTargets = [document.querySelector('.manifesto'), document.querySelector('.services'), document.querySelector('.booking-intro-copy')].filter(Boolean);
+  if (revealTargets.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    revealTargets.forEach(target => {
+      target.dataset.scrollReveal = '';
+      target.dataset.revealInitializing = '';
+    });
+    const revealOnScroll = () => {
+      // Start while the heading is entering the viewport so the motion is visible
+      // before the visitor has already scrolled past the text.
+      const revealPoint = window.innerHeight * 0.8;
+      revealTargets.forEach(target => {
+        target.classList.toggle('is-revealed', target.getBoundingClientRect().top <= revealPoint);
+      });
+    };
+    let scrollFrame = 0;
+    const queueRevealCheck = () => {
+      if (scrollFrame) return;
+      scrollFrame = window.requestAnimationFrame(() => {
+        scrollFrame = 0;
+        revealOnScroll();
+      });
+    };
+    window.addEventListener('scroll', queueRevealCheck, { passive: true });
+    window.addEventListener('resize', queueRevealCheck);
+    revealOnScroll();
+    window.requestAnimationFrame(() => {
+      revealTargets.forEach(target => { delete target.dataset.revealInitializing; });
+    });
+  }
 
   const today = new Date();
   form.elements.date.min = today.getFullYear() + '-' + String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
